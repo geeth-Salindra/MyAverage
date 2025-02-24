@@ -1,0 +1,60 @@
+.form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+        
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .input-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  input:disabled {
+    background: #f0f0f0;
+  }
+  
+  .module-credit {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #1a73e8;
+  }
+  
+  @media (max-width: 400px) {
+    .form-container {
+      width: 100%;
+    }
+  }
+
+  .card{
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;  /* Center vertically */
+  }
+  body{
+    background-image: linear-gradient(to right, rgb(0, 13, 255) , rgb(187, 0, 255));
+  }

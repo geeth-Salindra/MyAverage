@@ -1,0 +1,21 @@
+.title{
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;  /* Center vertically */
+  
+}
+
+.Sub-title{
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;  /* Center vertically */
+    margin-top: -20px;
+}
+
+.Sub2-title{
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;  /* Center vertically */
+    margin-top: -20px;
+    color: red;
+}
